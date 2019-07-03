@@ -1,6 +1,6 @@
 # elasticsearch-on-dokcer
 
-## Requiment
+## Requirement
 - docker
 - docker swarm
 - docker-compose
