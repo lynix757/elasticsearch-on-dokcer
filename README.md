@@ -7,14 +7,13 @@
 
 ## How to Use
 ### Create
-docker stack deploy --compose-file docker-compose.yml  "stack-name"
+`docker stack deploy --compose-file docker-compose.yml  "stack-name"`
 
 ### List Service
-docker service ls
+`docker service ls`
 
 ### Inspect container log
-docker service logs -f "service-name"
+`docker service logs -f "service-name"`
 
 ### Remove
-docker stack rm "stack-name"
-remove stack `docker stack rm "stack-name"` has `back-ticks around` it.
+`docker stack rm "stack-name"`
