@@ -17,3 +17,4 @@ docker service logs -f "service-name"
 
 ### Remove
 docker stack rm "stack-name"
+remove stack `docker stack rm "stack-name"` has `back-ticks around` it.
